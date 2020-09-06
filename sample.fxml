@@ -15,7 +15,7 @@
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="483.0" prefWidth="530.0">
                      <children>
-                        <ComboBox fx:id="manufCombobox1" onAction="#comboChange" layoutX="10.0" layoutY="44.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                        <ComboBox fx:id="manufCombobox1" onAction="#comboChange1" layoutX="10.0" layoutY="44.0" prefHeight="27.0" prefWidth="104.0">
                            <items>
                               <FXCollections fx:factory="observableArrayList">
                                  <String fx:value="TPA" />
@@ -28,7 +28,7 @@
                            <cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor></ComboBox>
-                        <ComboBox fx:id="manufCombobox2" layoutX="10.0" layoutY="78.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                        <ComboBox fx:id="manufCombobox2" onAction="#comboChange2" layoutX="10.0" layoutY="78.0" prefHeight="27.0" prefWidth="104.0">
                            <items>
                               <FXCollections fx:factory="observableArrayList">
                                  <String fx:value="TPA" />
@@ -41,7 +41,7 @@
                            <cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor></ComboBox>
-                        <ComboBox fx:id="manufCombobox3" layoutX="10.0" layoutY="112.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                        <ComboBox fx:id="manufCombobox3" onAction="#comboChange3" layoutX="10.0" layoutY="112.0" prefHeight="27.0" prefWidth="104.0">
                            <items>
                               <FXCollections fx:factory="observableArrayList">
                                  <String fx:value="TPA" />
@@ -53,7 +53,7 @@
                            </items><cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor></ComboBox>
-                        <ComboBox fx:id="manufCombobox4" layoutX="10.0" layoutY="146.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                        <ComboBox fx:id="manufCombobox4" onAction="#comboChange4" layoutX="10.0" layoutY="146.0" prefHeight="27.0" prefWidth="104.0">
                            <items>
                               <FXCollections fx:factory="observableArrayList">
                                  <String fx:value="TPA" />
@@ -66,7 +66,7 @@
                            <cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor></ComboBox>
-                        <ComboBox fx:id="manufCombobox5" layoutX="10.0" layoutY="180.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                        <ComboBox fx:id="manufCombobox5" onAction="#comboChange5" layoutX="10.0" layoutY="180.0" prefHeight="27.0" prefWidth="104.0">
                            <items>
                               <FXCollections fx:factory="observableArrayList">
                                  <String fx:value="TPA" />
@@ -79,7 +79,7 @@
                            <cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor></ComboBox>
-                        <ComboBox fx:id="manufCombobox6" layoutX="10.0" layoutY="214.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                        <ComboBox fx:id="manufCombobox6" onAction="#comboChange6" layoutX="10.0" layoutY="214.0" prefHeight="27.0" prefWidth="104.0">
                            <items>
                               <FXCollections fx:factory="observableArrayList">
                                  <String fx:value="TPA" />
@@ -91,7 +91,7 @@
                            </items><cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor></ComboBox>
-                        <ComboBox fx:id="manufCombobox7" layoutX="10.0" layoutY="248.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                        <ComboBox fx:id="manufCombobox7" onAction="#comboChange7" layoutX="10.0" layoutY="248.0" prefHeight="27.0" prefWidth="104.0">
                            <items>
                               <FXCollections fx:factory="observableArrayList">
                                  <String fx:value="TPA" />
