@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="520.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TabPane layoutY="1.0" prefHeight="550.0" prefWidth="530.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Расчеты">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="483.0" prefWidth="530.0">
+                     <children>
+                        <ComboBox fx:id="manufCombobox1" onAction="#comboChange" layoutX="10.0" layoutY="44.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                           <items>
+                              <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="TPA" />
+                                 <String fx:value="Capella" />
+                                 <String fx:value="FA" />
+                                 <String fx:value="FW" />
+                                 <String fx:value="Inawerra" />
+                              </FXCollections>
+                           </items>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                        <ComboBox fx:id="manufCombobox2" layoutX="10.0" layoutY="78.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                           <items>
+                              <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="TPA" />
+                                 <String fx:value="Capella" />
+                                 <String fx:value="FA" />
+                                 <String fx:value="FW" />
+                                 <String fx:value="Inawerra" />
+                              </FXCollections>
+                           </items>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                        <ComboBox fx:id="manufCombobox3" layoutX="10.0" layoutY="112.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                           <items>
+                              <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="TPA" />
+                                 <String fx:value="Capella" />
+                                 <String fx:value="FA" />
+                                 <String fx:value="FW" />
+                                 <String fx:value="Inawerra" />
+                              </FXCollections>
+                           </items><cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                        <ComboBox fx:id="manufCombobox4" layoutX="10.0" layoutY="146.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                           <items>
+                              <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="TPA" />
+                                 <String fx:value="Capella" />
+                                 <String fx:value="FA" />
+                                 <String fx:value="FW" />
+                                 <String fx:value="Inawerra" />
+                              </FXCollections>
+                           </items>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                        <ComboBox fx:id="manufCombobox5" layoutX="10.0" layoutY="180.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                           <items>
+                              <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="TPA" />
+                                 <String fx:value="Capella" />
+                                 <String fx:value="FA" />
+                                 <String fx:value="FW" />
+                                 <String fx:value="Inawerra" />
+                              </FXCollections>
+                           </items>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                        <ComboBox fx:id="manufCombobox6" layoutX="10.0" layoutY="214.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                           <items>
+                              <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="TPA" />
+                                 <String fx:value="Capella" />
+                                 <String fx:value="FA" />
+                                 <String fx:value="FW" />
+                                 <String fx:value="Inawerra" />
+                              </FXCollections>
+                           </items><cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                        <ComboBox fx:id="manufCombobox7" layoutX="10.0" layoutY="248.0" prefHeight="27.0" prefWidth="104.0" value="TPA">
+                           <items>
+                              <FXCollections fx:factory="observableArrayList">
+                                 <String fx:value="TPA" />
+                                 <String fx:value="Capella" />
+                                 <String fx:value="FA" />
+                                 <String fx:value="FW" />
+                                 <String fx:value="Inawerra" />
+                              </FXCollections>
+                           </items><cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ComboBox>
+                        <ComboBox fx:id="aromCombobox1" editable="true" layoutX="130.0" layoutY="44.0" prefHeight="25.0" prefWidth="200.0" promptText="Выберите ароматизатор" />
+                        <ComboBox fx:id="aromCombobox2" editable="true" layoutX="130.0" layoutY="78.0" prefWidth="200.0" promptText="Выберите ароматизатор" />
+                        <ComboBox fx:id="aromCombobox3" editable="true" layoutX="130.0" layoutY="112.0" prefWidth="200.0" promptText="Выберите ароматизатор" />
+                        <ComboBox fx:id="aromCombobox4" editable="true" layoutX="130.0" layoutY="146.0" prefWidth="200.0" promptText="Выберите ароматизатор" />
+                        <ComboBox fx:id="aromCombobox5" editable="true" layoutX="130.0" layoutY="180.0" prefWidth="200.0" promptText="Выберите ароматизатор" />
+                        <ComboBox fx:id="aromCombobox6" editable="true" layoutX="130.0" layoutY="214.0" prefWidth="200.0" promptText="Выберите ароматизатор" />
+                        <ComboBox fx:id="aromCombobox7" editable="true" layoutX="130.0" layoutY="248.0" prefWidth="200.0" promptText="Выберите ароматизатор" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="130.0" layoutY="14.0" prefHeight="17.0" prefWidth="200.0" text="Ароматизатор">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Label>
+                        <TextField fx:id="percTextField1" alignment="CENTER" layoutX="342.0" layoutY="44.0" prefHeight="25.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="percTextField2" alignment="CENTER" layoutX="342.0" layoutY="78.0" prefHeight="25.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="percTextField3" alignment="CENTER" layoutX="342.0" layoutY="112.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="percTextField4" alignment="CENTER" layoutX="342.0" layoutY="146.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="percTextField5" alignment="CENTER" layoutX="342.0" layoutY="180.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="percTextField6" alignment="CENTER" layoutX="342.0" layoutY="214.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="percTextField7" alignment="CENTER" layoutX="342.0" layoutY="248.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="mlTextField1" alignment="CENTER" layoutX="413.0" layoutY="44.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlTextField2" alignment="CENTER" layoutX="413.0" layoutY="78.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlTextField3" alignment="CENTER" layoutX="413.0" layoutY="112.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlTextField4" alignment="CENTER" layoutX="413.0" layoutY="146.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlTextField5" alignment="CENTER" layoutX="413.0" layoutY="180.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlTextField6" alignment="CENTER" layoutX="413.0" layoutY="214.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlTextField7" alignment="CENTER" layoutX="413.0" layoutY="248.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapTextField1" alignment="CENTER" layoutX="465.0" layoutY="44.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapTextField2" alignment="CENTER" layoutX="465.0" layoutY="78.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapTextField3" alignment="CENTER" layoutX="465.0" layoutY="112.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapTextField4" alignment="CENTER" layoutX="465.0" layoutY="146.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapTextField5" alignment="CENTER" layoutX="465.0" layoutY="180.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapTextField6" alignment="CENTER" layoutX="465.0" layoutY="214.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapTextField7" alignment="CENTER" layoutX="465.0" layoutY="248.0" prefWidth="40.0" promptText="0" />
+                        <Label alignment="CENTER" layoutX="340.0" layoutY="14.0" prefWidth="37.0" text="\%">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="413.0" layoutY="14.0" prefWidth="40.0" text="МЛ">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" layoutX="465.0" layoutY="14.0" prefWidth="40.0" text="Кап.">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="aromAllTextField" alignment="CENTER" layoutX="342.0" layoutY="303.0" prefHeight="25.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="vTextField" alignment="CENTER" layoutX="342.0" layoutY="338.0" prefWidth="40.0" text="30" />
+                        <TextField fx:id="pgTextField" alignment="CENTER" layoutX="342.0" layoutY="373.0" prefWidth="40.0" text="30" />
+                        <TextField fx:id="vgTextField" alignment="CENTER" layoutX="342.0" layoutY="407.0" prefWidth="40.0" text="70" />
+                        <TextField fx:id="nicTextField" alignment="CENTER" layoutX="342.0" layoutY="442.0" prefWidth="40.0" text="0" />
+                        <TextField fx:id="mlPGTextField" alignment="CENTER" layoutX="413.0" layoutY="374.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlVGTextField" alignment="CENTER" layoutX="413.0" layoutY="408.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="mlNicTextField" alignment="CENTER" layoutX="413.0" layoutY="443.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapPGTextField" alignment="CENTER" layoutX="465.0" layoutY="374.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapVGTextField" alignment="CENTER" layoutX="465.0" layoutY="408.0" prefWidth="40.0" promptText="0" />
+                        <TextField fx:id="kapNicTextField" alignment="CENTER" layoutX="465.0" layoutY="443.0" prefWidth="40.0" promptText="0" />
+                        <Label alignment="TOP_RIGHT" layoutX="182.0" layoutY="307.0" prefHeight="17.0" prefWidth="148.0" text="Итого ароматизаторов:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_RIGHT" layoutX="264.0" layoutY="342.0" prefHeight="17.0" prefWidth="66.0" text="Объем:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_RIGHT" layoutX="284.0" layoutY="377.0" prefHeight="17.0" prefWidth="46.0" text="PG:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_RIGHT" layoutX="284.0" layoutY="412.0" prefHeight="17.0" prefWidth="46.0" text="VG:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_RIGHT" layoutX="263.0" layoutY="446.0" prefHeight="17.0" prefWidth="67.0" text="Никотин:">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="clearButton" layoutX="12.0" layoutY="303.0" mnemonicParsing="false" onAction="#clearButtonClick" prefHeight="56.0" prefWidth="104.0" text="Очистить">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="sumButton" layoutX="13.0" layoutY="372.0" mnemonicParsing="false" onAction="#sumButtonClick" prefHeight="93.0" prefWidth="191.0" text="Рассчитать">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Настройки">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="76.0" layoutY="37.0" text="Количество капель в МЛ" />
+                        <Label layoutX="76.0" layoutY="77.0" text="Крепость никотиновой основы" />
+                        <TextField fx:id="kapSettingsTextField" alignment="CENTER" layoutX="14.0" layoutY="33.0" prefHeight="25.0" prefWidth="50.0" text="32" />
+                        <TextField fx:id="nicSettingsTextField" alignment="CENTER" layoutX="14.0" layoutY="73.0" prefWidth="50.0" text="100" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
