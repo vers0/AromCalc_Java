@@ -89,29 +89,207 @@ public class Controller {
     private ComboBox manufCombobox1;
     @FXML
     private ComboBox aromCombobox1;
+    @FXML
+    private ComboBox manufCombobox2;
+    @FXML
+    private ComboBox aromCombobox2;
+    @FXML
+    private ComboBox manufCombobox3;
+    @FXML
+    private ComboBox aromCombobox3;
+    @FXML
+    private ComboBox manufCombobox4;
+    @FXML
+    private ComboBox aromCombobox4;
+    @FXML
+    private ComboBox manufCombobox5;
+    @FXML
+    private ComboBox aromCombobox5;
+    @FXML
+    private ComboBox manufCombobox6;
+    @FXML
+    private ComboBox aromCombobox6;
+    @FXML
+    private ComboBox manufCombobox7;
+    @FXML
+    private ComboBox aromCombobox7;
 
  
-    public void comboChange(ActionEvent actionEvent) {
+    public void comboChange1(ActionEvent actionEvent) {
 
-        switch (manufCombobox1.getSelectedItem().toString().equals()){
-            case "TPA":
+        switch (manufCombobox1.getSelectionModel().getSelectedIndex()){
+            case 0:
+                aromCombobox1.getItems().removeAll(aromCombobox1.getItems());
                 aromCombobox1.getItems().addAll("TPA");
                 break;
-            case "Capella":
+            case 1:
+                aromCombobox1.getItems().removeAll(aromCombobox1.getItems());
                 aromCombobox1.getItems().addAll("Capella");
                 break;
-            case "FA":
+            case 2:
+                aromCombobox1.getItems().removeAll(aromCombobox1.getItems());
                 aromCombobox1.getItems().addAll("FA");
                 break;
-            case "FW":
+            case 3:
+                aromCombobox1.getItems().removeAll(aromCombobox1.getItems());
                 aromCombobox1.getItems().addAll("FW");
                 break;
-            case "Inawerra":
+            case 4:
+                aromCombobox1.getItems().removeAll(aromCombobox1.getItems());
                 aromCombobox1.getItems().addAll("Inawerra");
                 break;
         }
     }
 
+    public void comboChange2(ActionEvent actionEvent) {
+        switch (manufCombobox2.getSelectionModel().getSelectedIndex()){
+            case 0:
+                aromCombobox2.getItems().removeAll(aromCombobox2.getItems());
+                aromCombobox2.getItems().addAll("TPA");
+                break;
+            case 1:
+                aromCombobox2.getItems().removeAll(aromCombobox2.getItems());
+                aromCombobox2.getItems().addAll("Capella");
+                break;
+            case 2:
+                aromCombobox2.getItems().removeAll(aromCombobox2.getItems());
+                aromCombobox2.getItems().addAll("FA");
+                break;
+            case 3:
+                aromCombobox2.getItems().removeAll(aromCombobox2.getItems());
+                aromCombobox2.getItems().addAll("FW");
+                break;
+            case 4:
+                aromCombobox2.getItems().removeAll(aromCombobox2.getItems());
+                aromCombobox2.getItems().addAll("Inawerra");
+                break;
+        }
+    }
+    public void comboChange3(ActionEvent actionEvent) {
+
+        switch (manufCombobox3.getSelectionModel().getSelectedIndex()){
+            case 0:
+                aromCombobox3.getItems().removeAll(aromCombobox3.getItems());
+                aromCombobox3.getItems().addAll("TPA");
+                break;
+            case 1:
+                aromCombobox3.getItems().removeAll(aromCombobox3.getItems());
+                aromCombobox3.getItems().addAll("Capella");
+                break;
+            case 2:
+                aromCombobox3.getItems().removeAll(aromCombobox3.getItems());
+                aromCombobox3.getItems().addAll("FA");
+                break;
+            case 3:
+                aromCombobox3.getItems().removeAll(aromCombobox3.getItems());
+                aromCombobox3.getItems().addAll("FW");
+                break;
+            case 4:
+                aromCombobox3.getItems().removeAll(aromCombobox3.getItems());
+                aromCombobox3.getItems().addAll("Inawerra");
+                break;
+        }
+    }
+    public void comboChange4(ActionEvent actionEvent) {
+
+        switch (manufCombobox4.getSelectionModel().getSelectedIndex()){
+            case 0:
+                aromCombobox4.getItems().removeAll(aromCombobox4.getItems());
+                aromCombobox4.getItems().addAll("TPA");
+                break;
+            case 1:
+                aromCombobox4.getItems().removeAll(aromCombobox4.getItems());
+                aromCombobox4.getItems().addAll("Capella");
+                break;
+            case 2:
+                aromCombobox4.getItems().removeAll(aromCombobox4.getItems());
+                aromCombobox4.getItems().addAll("FA");
+                break;
+            case 3:
+                aromCombobox4.getItems().removeAll(aromCombobox4.getItems());
+                aromCombobox4.getItems().addAll("FW");
+                break;
+            case 4:
+                aromCombobox4.getItems().removeAll(aromCombobox4.getItems());
+                aromCombobox4.getItems().addAll("Inawerra");
+                break;
+        }
+    }
+    public void comboChange5(ActionEvent actionEvent) {
+
+        switch (manufCombobox5.getSelectionModel().getSelectedIndex()){
+            case 0:
+                aromCombobox5.getItems().removeAll(aromCombobox5.getItems());
+                aromCombobox5.getItems().addAll("TPA");
+                break;
+            case 1:
+                aromCombobox5.getItems().removeAll(aromCombobox5.getItems());
+                aromCombobox5.getItems().addAll("Capella");
+                break;
+            case 2:
+                aromCombobox5.getItems().removeAll(aromCombobox5.getItems());
+                aromCombobox5.getItems().addAll("FA");
+                break;
+            case 3:
+                aromCombobox5.getItems().removeAll(aromCombobox5.getItems());
+                aromCombobox5.getItems().addAll("FW");
+                break;
+            case 4:
+                aromCombobox5.getItems().removeAll(aromCombobox5.getItems());
+                aromCombobox5.getItems().addAll("Inawerra");
+                break;
+        }
+    }
+    public void comboChange6(ActionEvent actionEvent) {
+
+        switch (manufCombobox6.getSelectionModel().getSelectedIndex()){
+            case 0:
+                aromCombobox6.getItems().removeAll(aromCombobox6.getItems());
+                aromCombobox6.getItems().addAll("TPA");
+                break;
+            case 1:
+                aromCombobox6.getItems().removeAll(aromCombobox6.getItems());
+                aromCombobox6.getItems().addAll("Capella");
+                break;
+            case 2:
+                aromCombobox6.getItems().removeAll(aromCombobox6.getItems());
+                aromCombobox6.getItems().addAll("FA");
+                break;
+            case 3:
+                aromCombobox6.getItems().removeAll(aromCombobox6.getItems());
+                aromCombobox6.getItems().addAll("FW");
+                break;
+            case 4:
+                aromCombobox6.getItems().removeAll(aromCombobox6.getItems());
+                aromCombobox6.getItems().addAll("Inawerra");
+                break;
+        }
+    }
+    public void comboChange7(ActionEvent actionEvent) {
+
+        switch (manufCombobox7.getSelectionModel().getSelectedIndex()){
+            case 0:
+                aromCombobox7.getItems().removeAll(aromCombobox7.getItems());
+                aromCombobox7.getItems().addAll("TPA");
+                break;
+            case 1:
+                aromCombobox7.getItems().removeAll(aromCombobox7.getItems());
+                aromCombobox7.getItems().addAll("Capella");
+                break;
+            case 2:
+                aromCombobox7.getItems().removeAll(aromCombobox7.getItems());
+                aromCombobox7.getItems().addAll("FA");
+                break;
+            case 3:
+                aromCombobox7.getItems().removeAll(aromCombobox7.getItems());
+                aromCombobox7.getItems().addAll("FW");
+                break;
+            case 4:
+                aromCombobox7.getItems().removeAll(aromCombobox7.getItems());
+                aromCombobox7.getItems().addAll("Inawerra");
+                break;
+        }
+    }
    /* public void comboChange (String listItems) {
         manufCombobox1.setOnAction(event -> {
             //switch (manufCombobox1.getValue()) {
